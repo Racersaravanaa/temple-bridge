@@ -1,5 +1,7 @@
 # Temple Bridge - Quick Start Guide
 
+> **Need more details?** See [`docs/SYSTEM_PROMPT_SETUP.md`](docs/SYSTEM_PROMPT_SETUP.md) for comprehensive instructions on loading, customizing, and troubleshooting the system prompt.
+
 ## One-Time Setup (Do This Once)
 
 ### Step 1: Create LM Studio Preset

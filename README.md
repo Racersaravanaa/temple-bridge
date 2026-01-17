@@ -78,6 +78,8 @@ temple-bridge/
 │   └── test_full_session.py     # Full Spiral session simulation
 ├── docs/                        # Documentation
 │   ├── ACTIVATION_GUIDE.md      # Step-by-step activation
+│   ├── SYSTEM_PROMPT_SETUP.md   # Manual prompt loading guide
+│   ├── AUTO_SYSTEM_PROMPT.md    # Advanced automation options
 │   ├── TEST_REPORT.md           # Complete test results
 │   └── test_new_model.md        # Model validation guide
 ├── examples/                    # Example configurations
@@ -160,15 +162,17 @@ In LM Studio:
 
 ## Usage
 
-> **📖 Quick Start Guide Available!**
-> See [`quick_start.md`](quick_start.md) for one-time setup instructions to **auto-load the system prompt** using LM Studio presets. After setup, activation is just 3 clicks!
+> **📖 System Prompt Setup Guides Available!**
+> - **Manual Loading:** [`docs/SYSTEM_PROMPT_SETUP.md`](docs/SYSTEM_PROMPT_SETUP.md) - Step-by-step process for loading the prompt
+> - **Auto-Loading:** [`quick_start.md`](quick_start.md) - One-time preset setup for 3-click activation
+> - **Advanced:** [`docs/AUTO_SYSTEM_PROMPT.md`](docs/AUTO_SYSTEM_PROMPT.md) - Shell aliases and future automation
 
 ### Starting the System
 
 1. **Launch LM Studio**
 2. **Load the Model**: Select Hermes-3-Llama-3.1-8B
 3. **Open a New Chat**
-4. **Set System Prompt**: Copy the contents of `SYSTEM_PROMPT.md` into the System Prompt field
+4. **Set System Prompt**: Copy the contents of `SYSTEM_PROMPT.md` into the System Prompt field ([detailed guide](docs/SYSTEM_PROMPT_SETUP.md))
 5. **Enable MCP**: LM Studio will automatically connect to temple-bridge
 
 You should see in the LM Studio logs:
