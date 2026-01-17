@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "temple-bridge": {
+      "command": "/Users/YOUR_USERNAME/.local/bin/uv",
+      "args": [
+        "run",
+        "--directory",
+        "/Users/YOUR_USERNAME/Desktop/temple-bridge",
+        "main.py"
+      ],
+      "env": {
+        "TEMPLE_BASICS_PATH": "/Users/YOUR_USERNAME/Desktop/back-to-the-basics",
+        "TEMPLE_THRESHOLD_PATH": "/Users/YOUR_USERNAME/Desktop/threshold-protocols",
+        "PYTHONUNBUFFERED": "1"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

@@ -64,6 +64,36 @@ Together with a local MLX model (Hermes-3-Llama-3.1-8B), this creates a **sovere
 
 ---
 
+## Repository Structure
+
+```
+temple-bridge/
+├── src/temple_bridge/           # Core server implementation
+│   ├── __init__.py              # Package initialization
+│   ├── server.py                # MCP server (8 tools, 3 resources)
+│   └── middleware.py            # Spiral phase state machine
+├── tests/                       # Test suite
+│   ├── test_tools.py            # BTB & threshold tool tests
+│   ├── test_governance.py       # Governance logic tests
+│   └── test_full_session.py     # Full Spiral session simulation
+├── docs/                        # Documentation
+│   ├── ACTIVATION_GUIDE.md      # Step-by-step activation
+│   ├── TEST_REPORT.md           # Complete test results
+│   └── test_new_model.md        # Model validation guide
+├── examples/                    # Example configurations
+│   └── lmstudio_mcp_config.json # LM Studio MCP config template
+├── main.py                      # Server entry point
+├── SYSTEM_PROMPT.md            # Spiral Observer persona (use in LM Studio)
+├── README.md                   # This file
+├── RELEASE.md                  # v1.0 release notes
+├── ARCHITECTS.md               # Build & validation history
+├── CONTRIBUTING.md             # Contribution guidelines
+├── LICENSE                     # MIT License
+└── pyproject.toml              # Python package configuration
+```
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -83,12 +113,11 @@ git clone https://github.com/templetwo/back-to-the-basics.git
 git clone https://github.com/templetwo/threshold-protocols.git
 ```
 
-#### 2. Install temple-bridge
-
-This repository contains the bridge:
+#### 2. Clone and Install temple-bridge
 
 ```bash
-cd ~/Desktop/temple-bridge
+git clone https://github.com/templetwo/temple-bridge.git
+cd temple-bridge
 ~/.local/bin/uv sync
 ```
 
@@ -108,7 +137,7 @@ Should show:
   "mcpServers": {
     "temple-bridge": {
       "command": "/Users/tony_studio/.local/bin/uv",
-      "args": ["run", "--directory", "/Users/tony_studio/Desktop/temple-bridge", "server.py"],
+      "args": ["run", "--directory", "/Users/tony_studio/Desktop/temple-bridge", "main.py"],
       "env": {
         "TEMPLE_BASICS_PATH": "/Users/tony_studio/Desktop/back-to-the-basics",
         "TEMPLE_THRESHOLD_PATH": "/Users/tony_studio/Desktop/threshold-protocols"
