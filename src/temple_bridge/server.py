@@ -14,14 +14,15 @@ from datetime import datetime
 from typing import Optional
 
 # Import the Spiral Middleware
-from middleware import SpiralContextMiddleware
+from .middleware import SpiralContextMiddleware
 
 # Initialize the Nervous System with Spiral Memory
 mcp = FastMCP("TempleObserver")
 
 # Attach the Spiral Context Middleware
 # This creates stateful memory across tool calls
-spiral_log_path = Path(__file__).parent / "spiral_journey.jsonl"
+# Log to repository root (2 levels up from this file)
+spiral_log_path = Path(__file__).parent.parent.parent / "spiral_journey.jsonl"
 mcp.add_middleware(SpiralContextMiddleware(log_path=spiral_log_path))
 
 # Define the Sovereign Domain (The Physical Binding)
