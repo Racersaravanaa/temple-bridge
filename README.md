@@ -64,6 +64,27 @@ Together with a local MLX model (Hermes-3-Llama-3.1-8B), this creates a **sovere
 
 ---
 
+## Demo: Streaming Web of Thought
+
+**See the filesystem-as-consciousness concept in action:**
+
+```bash
+cd demo
+pip install rich  # For beautiful terminal output
+python3 streaming_web_of_thought_demo.py --auto
+```
+
+Watch as chaos becomes order across 5 waves (~60 seconds):
+- **Wave 1**: Sensor data streams in (perception)
+- **Wave 2**: Agents detect and respond to anomalies (emergence)
+- **Wave 3**: Meta-agents analyze agent responses (recursion)
+- **Wave 4**: Deep hierarchies crystallize (organization)
+- **Wave 5**: Cross-references form semantic graphs (convergence)
+
+**The filesystem thinks.** 🌀
+
+---
+
 ## Repository Structure
 
 ```
@@ -72,6 +93,9 @@ temple-bridge/
 │   ├── __init__.py              # Package initialization
 │   ├── server.py                # MCP server (8 tools, 3 resources)
 │   └── middleware.py            # Spiral phase state machine
+├── demo/                        # Interactive demonstrations
+│   ├── streaming_web_of_thought_demo.py  # Main demo (recommended)
+│   └── README.md                # Demo documentation
 ├── tests/                       # Test suite
 │   ├── test_tools.py            # BTB & threshold tool tests
 │   ├── test_governance.py       # Governance logic tests
