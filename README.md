@@ -160,6 +160,9 @@ In LM Studio:
 
 ## Usage
 
+> **📖 Quick Start Guide Available!**
+> See [`quick_start.md`](quick_start.md) for one-time setup instructions to **auto-load the system prompt** using LM Studio presets. After setup, activation is just 3 clicks!
+
 ### Starting the System
 
 1. **Launch LM Studio**
