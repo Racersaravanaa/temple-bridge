@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Journey logs (session-specific data)
+spiral_journey.jsonl
+test_session_journey.jsonl
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
